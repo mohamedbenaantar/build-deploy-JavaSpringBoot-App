@@ -58,3 +58,23 @@ netstat -ntlp
  ```sh
  cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
+
+### Update the AWS cli in the Jenkins Server " bcz From Jenkins Server we will create later the EKS Cluster"
+
+```sh
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+unzip awscliv2.zip
+
+sudo ./aws/install
+``````
+
+### Exit from the old Shell and check again 
+
+```sh
+exit
+
+sudo su -
+
+aws --version
+```
