@@ -13,6 +13,3 @@ pipeline {
         }
     }
 }
-$ helm install my-release autoscaler/cluster-autoscaler \
-    --set autoDiscovery.clusterName=cluster-02 \
-    --set awsRegion=us-east-1
