@@ -1,0 +1,5 @@
+## Ignore mvn build files
+mvnw
+mvnw.cmd
+# Ignore Maven POM file
+pom.xml
